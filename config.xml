@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <yoctohub>
+        <ip>10.0.0.124</ip>
+    </yoctohub>
+
+    <sensor>
+        <channel>voltage1</channel>
+        <calibration_uv_per_wm2>14.21</calibration_uv_per_wm2>
+    </sensor>
+
+    <logging>
+        <csv_file>lp02_log.csv</csv_file>
+        <state_file>last_seen.json</state_file>
+        <log_frequency>12/h</log_frequency>
+        <poll_seconds>60</poll_seconds>
+        <sample_interval_seconds>1</sample_interval_seconds>
+    </logging>
+</config>
